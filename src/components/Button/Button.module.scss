@@ -1,0 +1,41 @@
+.button {
+  font-size: 20px;
+  background: none;
+  border: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition-property: transform;
+  transition-duration: 150ms;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.button--type-default {
+  color: #ffffff;
+  background: radial-gradient(ellipse farthest-corner at top left, #c41417 0%, #b31315 100%);
+}
+
+.button--type-text {
+  color: #6f6f6f;
+
+  &:hover {
+    color: #c41417;
+  }
+}
+
+.button--size-default {
+  border-radius: 10px;
+  padding: 0 48px;
+  min-height: 60px;
+}
+
+.button--size-big {
+  border-radius: 6px;
+  padding: 0 96px;
+  min-height: 72px;
+}
