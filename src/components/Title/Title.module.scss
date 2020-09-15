@@ -1,4 +1,7 @@
+@import '../../styles/animation.scss';
+
 .title {
+  animation: move-up 250ms ease-out;
   font-size: 37px;
   color: #383838;
   margin: 0 0;

@@ -1,4 +1,7 @@
+@import '../../styles/animation.scss';
+
 .input {
+  animation: move-up 250ms ease-out;
   height: 60px;
   color: #4e4e4e;
   border: 3px solid lightgrey;

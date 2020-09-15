@@ -1,4 +1,7 @@
+@import '../../styles/animation.scss';
+
 .button {
+  animation: move-up 350ms ease-in-out;
   font-size: 20px;
   background: none;
   border: none;

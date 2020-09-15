@@ -1,3 +1,5 @@
+@import '../../styles/animation.scss';
+
 .container {
   display: flex;
   width: 100%;
@@ -6,6 +8,7 @@
 }
 
 .messages-container {
+  animation: move-left 250ms ease-out;
   width: 100%;
   flex-grow: 1;
   border-radius: 10px;

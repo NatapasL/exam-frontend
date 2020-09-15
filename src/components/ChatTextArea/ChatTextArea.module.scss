@@ -1,4 +1,7 @@
+@import '../../styles/animation.scss';
+
 .container {
+  animation: move-up 250ms ease-out;
   position: relative;
 }
 
