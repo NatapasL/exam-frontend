@@ -23,7 +23,9 @@ export const HomePage = () => {
   return (
     <Layout>
       <div className={styles.container}>
-        <Title label="ชื่อของคุณ" />
+        <div className={styles['title-container']}>
+          <Title label="ชื่อของคุณ" />
+        </div>
         <div className={styles['input-container']}>
           <Input onChange={handleInputChange}/>
         </div>

@@ -15,7 +15,9 @@ export const NewRoomPage = () => {
   return (
     <Layout>
       <div className={styles.container}>
-        <Title label="สร้างห้องใหม่" />
+        <div className={styles['title-container']}>
+          <Title label="สร้างห้องใหม่" />
+        </div>
         <div className={styles['input-container']}>
           <Input />
         </div>

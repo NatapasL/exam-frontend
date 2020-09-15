@@ -15,7 +15,9 @@ export const JoinRoomPage = () => {
   return (
     <Layout>
       <div className={styles.container}>
-        <Title label="เข้าร่วมแชท" />
+        <div className={styles['title-container']}>
+          <Title label="เข้าร่วมแชท" />
+        </div>
         <div className={styles['input-container']}>
           <Input />
         </div>
