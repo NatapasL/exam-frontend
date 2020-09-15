@@ -3,11 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@apollo/client": "^3.2.0",
     "classnames": "^2.2.6",
+    "graphql": "^15.3.0",
+    "lodash": "^4.17.20",
     "next": "^9.5.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "sass": "^1.26.10"
+    "recoil": "^0.0.7",
+    "sass": "^1.26.10",
+    "subscriptions-transport-ws": "^0.9.18"
   },
   "scripts": {
     "dev": "next dev",
