@@ -43,7 +43,7 @@ export const NewRoomPage = () => {
       setCurrentRoom(room)
       router.push(`/rooms/${room.id}`)
     }).catch(() => {
-      alert('Create room failure')
+      alert('Create room fail or room is already exist')
     })
   }
 
